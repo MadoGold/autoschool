@@ -1,0 +1,28 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+html {
+  height: 100%;
+}
+
+body {
+  min-width: 450px;
+  height: 100%;
+  font-family: 'Post No Bills Colombo', Nunito, sans-serif;
+  background-color: $white;
+  color: $black;
+  font-weight: 600;
+  line-height: 1;
+}
+
+#app {
+  height: 100%;
+}
+
+[class*="container"] {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
